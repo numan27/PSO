@@ -1,0 +1,415 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+html {
+  --dark-gray-color: rgba(0, 0, 0, 0.35);
+}
+
+::placeholder {
+  color: #d4d9e0 !important;
+}
+
+.bg-dark-gray {
+  background-color: var(--dark-gray-color) !important;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+.text-gray {
+  color: #656565;
+}
+
+.text-dark-gray {
+  color: rgba(89, 90, 92, 1);
+}
+
+.text-purple {
+  color: #7d0fcc;
+}
+
+.text-purple {
+  color: #7d0fcc;
+}
+
+.text-gradient {
+  background: linear-gradient(120.94deg, #f858e3 -0.33%, #ae5cf5 70.91%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+hr {
+  border: 1px solid #e2e2e2;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+
+.text_primary {
+  color: #F6BB42;
+}
+
+.text_secondary {
+  color: #079C28;
+}
+
+.bg_primary {
+  background-color: #047E1F;
+}
+
+.bg_primary_2 {
+  background-color: #079C28;
+}
+
+.btn_primary {
+  background-color: #047E1F;
+  border: none !important;
+}
+
+.btn_primary:hover {
+  background-color: #079C28 !important
+}
+
+a {
+  text-decoration: none;
+}
+
+.login_btn {
+  font-weight: 500;
+}
+
+.textJustify {
+  text-align: justify !important;
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
+.mainHeading {
+  font-size: 36px;
+}
+
+@media screen and (max-width: 993px) {
+
+  .md_flexCol {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .md_width {
+    width: 100% !important;
+  }
+
+  .textJustify {
+    text-align: center !important;
+  }
+
+  .statsWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .register_form label {
+    font-size: 17px !important;
+    color: #000;
+    line-height: 20px;
+  }
+
+  .checkWrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .policy_section h1 {
+    font-size: 6vw !important;
+  }
+
+  .policy_section h2 {
+    font-size: 4vw !important;
+  }
+
+}
+
+@media screen and (max-width: 577px) {
+
+  /* Generic */
+
+  .mobileText_align {
+    text-align: center;
+  }
+
+  .mobile_width {
+    width: 100% !important;
+  }
+
+  .mobileText_h {
+    font-size: 6vw;
+    text-align: justify !important;
+  }
+
+  .mobileText_p {
+    font-size: 4vw !important;
+  }
+
+
+  .textJustify {
+    text-align: center !important;
+  }
+
+  .statsWrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 30px !important;
+  }
+
+  .noc p {
+    font-size: 4vw !important;
+  }
+
+  .noc h2 {
+    font-size: 6vw !important;
+  }
+
+  /* logo */
+
+  .logoWrapper .logo {
+    width: 80px;
+  }
+
+  .footer p {
+    font-size: 12px !important;
+    text-align: center;
+  }
+
+  .checklist h3 {
+    font-size: 16px !important;
+  }
+
+  .register_form label {
+    font-size: 15px !important;
+    color: #000;
+  }
+
+  .register_form .submit_btn {
+    padding: 8px 15px !important;
+    font-size: 19px !important;
+  }
+}
+
+/* Navbar */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none !important;
+}
+
+.inputField input {
+  background-color: transparent;
+}
+
+.header {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header .form-control:focus {
+  border-color: #fff !important;
+}
+
+.inputField input:focus {
+  outline-color: #fff !important;
+}
+
+::placeholder {
+  color: #B6B5B5 !important;
+}
+
+/* Policy Section */
+
+.policy_section {
+  background-image: url("../images//policy-img.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px !important;
+}
+
+.policy_section h1 {
+  font-size: 48px;
+}
+
+.policy_section a {
+  text-decoration: none;
+  color: #EFA50B;
+}
+
+/* Checklist Section */
+.checklist h3 {
+  color: #023902;
+}
+
+.checkWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  ;
+}
+
+.footer p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Login */
+.loginPage {
+  background-color: #EDECEC;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.h_screen {
+  height: 73.3vh;
+}
+
+.block_btn {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.block_btn:hover,
+.block_btn:focus {
+  background-color: #047E1F !important;
+}
+
+.statsWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+
+/* Registeration Page */
+.register_form svg {
+  color: #EB0303;
+}
+
+.register_form .form-control {
+  border-color: #000 !important;
+}
+
+.register_form .form-control:focus {
+  box-shadow: none !important;
+}
+
+.register_form .submit_btn {
+  background: linear-gradient(90deg, #C2F202D6 10%, #047E1FD6 47%);
+  color: white !important;
+  padding: 8px 15px;
+  border: .5px solid #047E1F !important;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+}
+.register_form .next_btn {
+  width: 40%;
+}
+
+.register_form label {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+}
+
+.register_form .inputField_register {
+  padding: 12px 20px;
+}
+
+input[type="file"] {
+  opacity: 0;
+  height: 0;
+  width: 0.1px;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputFile {
+  border: 1px solid #000;
+  padding: 10px 20px;
+}
+
+/* Applicant's Details */
+.applicant_details th {
+  background-color: #00B050;
+  color: #fff;
+  font-weight: 400;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  white-space: nowrap !important;
+}
+
+tbody,
+td {
+  white-space: nowrap !important;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-toggle {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.dropdown-toggle:focus,
+.dropdown-toggle:hover {
+  background-color: transparent !important;
+}
+
+.form-check-input {
+  width: 1.5em;
+  height: 1.5em;
+  border: 2px solid #CED4DA !important;
+  border-radius: 8px !important;
+  margin-top: 0 !important;
+}
+
+.checkBox_wrapper label {
+  font-size: 18px;
+  color: #54595E;
+  font-weight: 500;
+}
+
+.statsCard:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.03);
+}
+
+.statsCard {
+  transition: all 0.3s ease-in-out;
+}
+
+.eyeIcon {
+  background-color: transparent;
+  right: 2px;
+  top: 12px;
+  border: none;
+  z-index: 1050;
+}
