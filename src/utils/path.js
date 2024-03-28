@@ -4,7 +4,7 @@ const PATH = {
   //  AUTH PATHS
   LOGIN: "/login",
 
-  LANDING_PAGE: "/",
+  LANDING_PAGE: "/pso",
   STATS: "/stats",
   REGISTER_STEP_ONE: "/register-step-one",
   REGISTER: "/register",
